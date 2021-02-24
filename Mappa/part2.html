@@ -17,7 +17,7 @@
     lat: 49.26474761301343,
     lng: -123.24388258466529,
     zoom: 3,
-    style: "https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png"
+    style: " https://{s}.basemaps.cartocdn.com/rastertiles/voyager_labels_under/{z}/{x}/{y}.png"
   }
 
   function setup(){
@@ -29,7 +29,7 @@
 
     myMap.onChange(drawMeteorites);
 
-    fill(70, 203,31);
+    fill('red');
     stroke(100);
   }
 
